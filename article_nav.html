@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La publication sémantique générative : fabriquer la métadonnée d&#39;indexation absente</title>
+
+<meta name="citation_title" content="La publication sémantique générative : fabriquer la métadonnée d&#39;indexation absente">
+<meta name="citation_author" content="Gérald Kembellec">
+<meta name="citation_publication_date" content="2026/03/15">
+<meta name="citation_journal_title" content="Document numérique">
+<meta name="DC.title" content="La publication sémantique générative : fabriquer la métadonnée d&#39;indexation absente">
+<meta name="DC.creator" content="Gérald Kembellec">
+<meta name="DC.source" content="Document numérique">
+<meta name="DC.date" content="2026-03-15">
+<meta name="DC.language" content="fr">
+<meta name="DC.subject" content="indexation documentaire">
+<meta name="DC.subject" content="Métadonnées">
+<meta name="DC.subject" content="publication scientifique">
+<meta name="DC.subject" content="interopérabilité des données">
+<meta name="DC.subject" content="identifiants d&#39;autorité">
+<meta name="DC.subject" content="référentiels d&#39;autorité">
+<meta name="DC.subject" content="données structurées">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "inLanguage": "fr",
+  "headline": "La publication sémantique générative : fabriquer la métadonnée d'indexation absente",
+  "name": "La publication sémantique générative : fabriquer la métadonnée d'indexation absente",
+  "abstract": "La majorité des manuscrits scientifiques sont publiés sans la métadonnée sémantique qui les rendrait pleinement interopérables : les concepts d'indexation, les identifiants d'autorité et le balisage structuré font défaut. Cet article propose une chaîne de publication sémantique générative qui fabrique cette métadonnée absente à partir du texte brut, avec un humain dans la boucle pour valider et désambiguïser. L'indexation par aboutness est ancrée sur des référentiels d'autorité afin de rester comparable à une indexation documentaire de référence.",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Gérald Kembellec",
+      "sameAs": "https://orcid.org/0000-0002-1825-0097"
+    }
+  ],
+  "datePublished": "2026-03-15",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "Document numérique"
+  },
+  "keywords": [
+    "indexation documentaire",
+    "Métadonnées",
+    "publication scientifique",
+    "interopérabilité des données",
+    "identifiants d'autorité",
+    "référentiels d'autorité",
+    "données structurées"
+  ],
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "indexation documentaire"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Métadonnées",
+      "sameAs": [
+        "https://www.idref.fr/099096943/id"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "publication scientifique",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q591041"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "interopérabilité des données"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "identifiants d'autorité"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "référentiels d'autorité"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "données structurées",
+      "sameAs": [
+        "https://www.wikidata.org/entity/Q26813700",
+        "https://www.idref.fr/027232271/id"
+      ]
+    }
+  ]
+}
+  </script>
+
+
+  <style media="all">
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.6; }
+    main, aside, footer { max-width: 760px; margin: 0 auto; padding: 0 1rem; }
+  </style>
+
+  <style media="screen">
+    :root { --nav-bg: #1a1a2e; --nav-fg: #f5f5f7; --nav-accent: #5b9bd5; }
+    body { font-family: system-ui, -apple-system, sans-serif; color: #1a1a1a; }
+    [id] { scroll-margin-top: 4.5rem; } /* ancres non masquées sous la barre fixe */
+    main a, aside a { color: #1a5fb4; }
+
+    .navbar {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+      gap: .5rem; padding: .6rem 1rem;
+      background: var(--nav-bg); color: var(--nav-fg);
+    }
+    .nav-brand {
+      color: var(--nav-fg); text-decoration: none; font-weight: 600;
+      max-width: 80%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    }
+    /* la checkbox pilote l'ouverture ; masquée mais focusable (clavier) */
+    .nav-toggle { position: absolute; width: 1px; height: 1px; opacity: 0; }
+    .nav-burger {
+      display: inline-flex; flex-direction: column; justify-content: center;
+      gap: 5px; width: 30px; height: 24px; cursor: pointer;
+    }
+    .nav-burger span {
+      height: 3px; width: 100%; background: var(--nav-fg);
+      border-radius: 2px; transition: transform .25s, opacity .25s;
+    }
+    .nav-menu { list-style: none; margin: 0; padding: 0; flex-basis: 100%; display: none; }
+    .nav-menu li { margin: .25rem 0; }
+    .nav-menu a {
+      display: block; padding: .35rem .5rem; border-radius: 4px;
+      color: var(--nav-fg); text-decoration: none;
+    }
+    .nav-menu a:hover, .nav-menu a:focus { background: rgba(255, 255, 255, .12); color: var(--nav-accent); }
+
+    /* état ouvert : menu déplié + burger → croix */
+    .nav-toggle:checked ~ .nav-menu { display: block; }
+    .nav-toggle:checked ~ .nav-burger span:nth-child(1) { transform: translateY(8px) rotate(45deg); }
+    .nav-toggle:checked ~ .nav-burger span:nth-child(2) { opacity: 0; }
+    .nav-toggle:checked ~ .nav-burger span:nth-child(3) { transform: translateY(-8px) rotate(-45deg); }
+    .nav-toggle:focus-visible ~ .nav-burger { outline: 2px solid var(--nav-accent); outline-offset: 4px; }
+
+    /* --- Encart « Concepts d'indexation » --- */
+    aside.indexation { font-size: .92rem; border-left: 3px solid var(--nav-accent); }
+    aside.indexation h2 { font-size: 1rem; margin-top: 0; }
+    aside.indexation ul { padding-left: 1.1rem; }
+
+    /* Écran large : article | concepts côte à côte (sous le menu, footer dessous).
+       En dessous de 920px, on retombe sur l'empilement par défaut. */
+    @media (min-width: 920px) {
+      body {
+        display: grid;
+        column-gap: 2.5rem;
+        grid-template-columns:
+          [full-start] minmax(1rem, 1fr)
+          [main-start] minmax(0, 720px)
+          [main-end aside-start] 300px
+          [aside-end] minmax(1rem, 1fr) [full-end];
+      }
+      .navbar { grid-column: full-start / full-end; grid-row: 1; }
+      main    { grid-column: main-start / main-end;  grid-row: 2; }
+      aside   { grid-column: aside-start / aside-end; grid-row: 2; }
+      footer  { grid-column: main-start / aside-end;  grid-row: 3; }
+      main, aside, footer { max-width: none; margin: 0; padding: 0; }
+      /* l'encart suit le défilement de l'article */
+      aside.indexation { position: sticky; top: 4.5rem; align-self: start; padding: .25rem 0 .25rem 1rem; }
+    }
+  </style>
+
+  <style media="print">
+    @page { margin: 2cm; }
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      color: #000; background: #fff; font-size: 11pt; line-height: 1.45;
+    }
+    main, aside, footer { max-width: none; margin: 0; padding: 0; }
+
+    /* le menu de navigation n'a aucun sens sur papier */
+    .navbar { display: none; }
+
+    /* coupures de page maîtrisées */
+    h1, h2, h3, h4 { break-after: avoid; page-break-after: avoid; }
+    section, li { break-inside: avoid; page-break-inside: avoid; }
+
+    /* un lecteur papier ne peut pas cliquer : on imprime l'URL après le lien */
+    main a[href^="http"]::after, aside a[href^="http"]::after {
+      content: " <" attr(href) ">";
+      font-size: .85em; color: #333; word-break: break-all;
+    }
+
+    /* séparer visuellement les blocs hors <main> */
+    aside, footer { border-top: 1px solid #999; margin-top: 1.5rem; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <nav class="navbar" aria-label="Sommaire de l'article">
+    <a class="nav-brand" href="#">La publication sémantique générative : fabriquer la métadonnée d&#39;indexation absente</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-burger" role="button" aria-label="Ouvrir ou fermer le sommaire">
+      <span></span><span></span><span></span>
+    </label>
+    <ul class="nav-menu">
+      <li><a href="#sec-1">Résumé</a></li>
+      <li><a href="#sec-2">Introduction</a></li>
+      <li><a href="#sec-3">Indexation par aboutness</a></li>
+      <li><a href="#sec-4">Ancrage sur les autorités</a></li>
+      <li><a href="#sec-5">Conclusion</a></li>
+<li><a href="#indexation">Concepts d'indexation</a></li><li><a href="#references">Références</a></li>    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <header>
+        <h1>La publication sémantique générative : fabriquer la métadonnée d&#39;indexation absente</h1>
+        <p class="authors"><span class="author">Gérald Kembellec <a href="https://orcid.org/0000-0002-1825-0097">ORCID</a></span></p>
+<p class="venue">Document numérique</p>      </header>
+
+      <section id="sec-1" class="abstract">
+        <h2>Résumé</h2>
+<p>La majorité des manuscrits scientifiques sont publiés sans la métadonnée sémantique qui les rendrait pleinement interopérables : les concepts d&#39;indexation, les identifiants d&#39;autorité et le balisage structuré font défaut. Cet article propose une chaîne de publication sémantique générative qui fabrique cette métadonnée absente à partir du texte brut, avec un humain dans la boucle pour valider et désambiguïser. L&#39;indexation par aboutness est ancrée sur des référentiels d&#39;autorité afin de rester comparable à une indexation documentaire de référence.</p>
+      </section>
+      <section id="sec-2" class="intro">
+        <h2>Introduction</h2>
+<p>L&#39;écrit scientifique circule aujourd&#39;hui dans des écosystèmes qui attendent des données structurées : moteurs de recherche académiques, agrégateurs, entrepôts OAI. Or le manuscrit, dans sa forme native, n&#39;expose presque rien de cette couche sémantique. Nous distinguons la médiatisation du document de sa sémantisation effective, et nous concentrons notre effort sur la seconde.</p>
+      </section>
+      <section id="sec-3" class="content">
+        <h2>Indexation par aboutness</h2>
+<p>L&#39;indexation au niveau du document vise à capturer ce dont le texte « parle » (aboutness), et non à recenser chaque terme. Nous extrayons un petit ensemble de concepts centraux à partir du titre, du résumé et de la structure, puis nous les soumettons à une validation humaine. Cette approche reste mesurable : l&#39;ensemble produit peut être comparé à une indexation experte.</p>
+      </section>
+      <section id="sec-4" class="content">
+        <h2>Ancrage sur les autorités</h2>
+<p>Chaque concept retenu est ancré sur une entité de référence, ce qui permet de remonter vers un identifiant d&#39;autorité résolvable. Cet ancrage est le pont qui ramène les concepts dans l&#39;espace d&#39;indexation où travaille la documentaliste : sans lui, la comparaison quantitative n&#39;aurait pas de sens. Les concepts non ancrés sont conservés comme mots-clés libres.</p>
+      </section>
+      <section id="sec-5" class="conclusion">
+        <h2>Conclusion</h2>
+<p>La fabrication assistée de métadonnée sémantique, encadrée par une validation humaine ciblée sur l&#39;incertain, offre une voie réaliste vers des publications scientifiques nativement interopérables.</p>
+      </section>
+    </article>
+  </main>
+
+  <aside class="indexation" id="indexation">
+    <h2>Concepts d'indexation</h2>
+    <ul>
+      <li>
+        indexation documentaire      </li>
+      <li>
+        Métadonnées — <a href="https://www.idref.fr/099096943/id">IdRef</a>      </li>
+      <li>
+        publication scientifique — <a href="https://www.wikidata.org/entity/Q591041">Wikidata</a> (<a href="https://www.wikidata.org/entity/Q591041">Wikidata</a>)      </li>
+      <li>
+        interopérabilité des données      </li>
+      <li>
+        identifiants d&#39;autorité      </li>
+      <li>
+        référentiels d&#39;autorité      </li>
+      <li>
+        données structurées — <a href="https://www.idref.fr/027232271/id">IdRef</a> (<a href="https://www.wikidata.org/entity/Q26813700">Wikidata</a>)      </li>
+    </ul>
+  </aside>
+
+  <footer class="references" id="references">
+    <h2>Références</h2>
+    <ol>
+<li>Kembellec, Gérald — Bibliographies scientifiques : de la recherche d&#39;informations à la production de documents — 2014</li>
+<li>Berners-Lee, Tim and Hendler, James and Lassila, Ora — The Semantic Web — 2001</li>
+<li>Shadbolt, Nigel and Hall, Wendy and Berners-Lee, Tim — The Semantic Web Revisited — 2006</li>
+    </ol>
+  </footer>
+</body>
+</html>
