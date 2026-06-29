@@ -1,0 +1,898 @@
+{
+  "title": {
+    "value": "Semantic publishing, la sémantique dans la sémiotique des codes sources d'écrits d'écran scientifiques",
+    "prov": "auto",
+    "confidence": null,
+    "source": null
+  },
+  "authors": [
+    {
+      "name": {
+        "value": "Gérald Kembellec",
+        "prov": "author",
+        "confidence": null,
+        "source": null
+      },
+      "orcid": {
+        "value": "0000-0003-3036-6989",
+        "prov": "author",
+        "confidence": null,
+        "source": null
+      },
+      "affiliation": null
+    }
+  ],
+  "abstract": {
+    "value": "Les enjeux contemporains de la « mise en média de l&#39;information scientifique » au travers des plateformes du Web, y compris celles du Web social, mettent en tension les questions informationnelles et médiatiques. Les Etats, l&#39;Europe et la communauté scientifique internationale réclament, dans une politique d&#39;ouverture de la science, la mise à disposition proactive des contenus à destination du plus grand nombre. Penser et anticiper la circulation médiatique des productions scientifiques est une gageure info-communicationnelle qui interroge les modalités de mise en œuvre d&#39;une telle politique. En effet, il existe de nombreuses variables à appréhender pour proposer un formalisme qui satisfasse tous les acteurs de l&#39;Information Scientifique et Technique. Comment envisager le design de l&#39;information scientifique et concilier les besoins des différents acteurs de la chaîne de l&#39;IST dans un contexte où il y a autant de facettes à prendre en compte que d&#39;acteurs des documentarisations auctoriale, éditoriale, diffusionnelle et d&#39;appropriation (Zacklad, 2019) ?",
+    "prov": "auto",
+    "confidence": null,
+    "source": null
+  },
+  "keywords": [
+    "Semantic publishing",
+    "Analyse sémiotique",
+    "Code source",
+    "Données liées",
+    "Écriture numérique",
+    "IST",
+    "médiation",
+    "Médiatisation",
+    "documentarisation"
+  ],
+  "journal": {
+    "value": "Les Enjeux de l'information et de la communication",
+    "prov": "author",
+    "confidence": null,
+    "source": null
+  },
+  "issn": {
+    "value": null,
+    "prov": "author",
+    "confidence": null,
+    "source": null
+  },
+  "doi": {
+    "value": "10.3917/enic.027.0055",
+    "prov": "author",
+    "confidence": null,
+    "source": null
+  },
+  "publication_date": {
+    "value": "2019",
+    "prov": "author",
+    "confidence": null,
+    "source": null
+  },
+  "volume": null,
+  "issue": null,
+  "firstpage": null,
+  "lastpage": null,
+  "publisher": null,
+  "pdf_url": null,
+  "image_url": null,
+  "twitter_site": null,
+  "sections": [
+    {
+      "heading": "Résumé",
+      "level": 2,
+      "text": "Les enjeux contemporains de la « mise en média de l&#39;information scientifique » au travers des plateformes du Web, y compris celles du Web social, mettent en tension les questions informationnelles et médiatiques. Les Etats, l&#39;Europe et la communauté scientifique internationale réclament, dans une politique d&#39;ouverture de la science, la mise à disposition proactive des contenus à destination du plus grand nombre. Penser et anticiper la circulation médiatique des productions scientifiques est une gageure info-communicationnelle qui interroge les modalités de mise en œuvre d&#39;une telle politique. En effet, il existe de nombreuses variables à appréhender pour proposer un formalisme qui satisfasse tous les acteurs de l&#39;Information Scientifique et Technique. Comment envisager le design de l&#39;information scientifique et concilier les besoins des différents acteurs de la chaîne de l&#39;IST dans un contexte où il y a autant de facettes à prendre en compte que d&#39;acteurs des documentarisations auctoriale, éditoriale, diffusionnelle et d&#39;appropriation (Zacklad, 2019) ?"
+    },
+    {
+      "heading": "Introduction",
+      "level": 2,
+      "text": "Dans cet article, nous nous intéressons à la sémiotique du code des écrits d&#39;écran (Souchier, 1996 ; Jeanneret et Souchier, 1999) au sein des plateformes d&#39;édition en ligne d&#39;information scientifique et technique (IST). Nous proposons de mettre l&#39;accent sur les modalités d&#39;exposition des métadonnées liées aux écrits scientifiques, tout autant que sur leurs potentiels usages communicationnels. Pour ce faire, nous reprenons un positionnement qui trouve ses racines dans les travaux sur les raisons « graphique » (Goody 1979) et « computationnelle » (Bachimont, 1999), mais aussi dans la « théorie opérationnelle de l&#39;écriture numérique » (Crozat et al., 2011). Sous ce positionnement nous examinerons l&#39;écriture des articles scientifiques avec une « machine à calculer » (Crozat, 2016), pour des humains et d&#39;autres « machines à calculer » (Crozat, 2016). Les méthodes propres au semantic publishing peuvent-elles proposer, sinon une réelle « rhétorique hypertextuelle » (Saemmer, 2015), tout au moins un réel bénéfice info-communicationnel dans la sphère scientifique ? La question sous-tendue par cette analyse est le bénéficiaire de ces techniques : l&#39;auteur, l&#39;éditeur ou le lecteur ? Ces enjeux médiatiques en information scientifique seront donc problématisés tout autant dans une perspective d&#39;inscription de fragments documentaires que de celle de la documentarisation auctoriale ou encore de celle des industries médiatiques qui éditent et distribuent l&#39;IST, sans oublier enfin celle du lecteur final."
+    },
+    {
+      "heading": "Sémiotique et semantic publishing",
+      "level": 2,
+      "text": ""
+    },
+    {
+      "heading": "Enjeux et opportunités semantic publishing",
+      "level": 3,
+      "text": "Le semantic publishing (Verlaet et Dillaerts, 2016 ; d&#39;après Shotton, 2009) est un modèle de publication qui offre de larges possibilités de mise en œuvre de documents numériques auto-décrits et inscrits dans un vaste maillage conceptuel. L&#39;ajout de métadonnées lisibles par les machines permet aux robots et agents logiciels d&#39;appréhender, sinon le sens, tout du moins la structure et le contexte d&#39;un fragment d&#39;information. En effet, ce dernier est inscrit au sein d&#39;un document et plus largement dans un réseau d&#39;autres fragments, concepts ou auteurs. Cette structure est rendue possible grâce à des « référentiels autorités » de désambiguïsation, réputés communs, ne laissant nulle place à l&#39;interprétation, à la confusion typologique ou encore à la polysémie.\n\nCette rédaction sémantique, hautement technique pour le profane peut se réaliser par délégation scripturaire au moyen de nouveaux architextes. Ces derniers sont de véritables chaînes éditoriales sémantiques offrant une assistance structurelle à la rédaction, convoquant tout à la fois la liaison, l&#39;inscription et la discrétisation des données (Bachimont, 2010 ; Crozat, 2012). Cette nouvelle méthode d&#39;écriture commence à trouver un écho dans le monde scientifique avec des revues nativement numériques comme PeerJ dont les contenus sont individuellement accessibles et parfois sémantisés (Broudoux et Kembellec, 2017). Dans certaines revues, chaque paragraphe, illustration, tableau ou encore analyse de relecteur est identifiable et accessible par une adresse de ressource unique (URI). Chacun de ces fragments est ouvert aux commentaires, eux-mêmes identifiables et donc possibles à lier sémantiquement. Nous avons proposé un modèle (Kembellec et Bottini, 2017) qui descendait plus loin en granularité pour permettre à la fois la typologie et l&#39;identification de fragments d&#39;articles scientifiques en réseau. [[fig:fig1]]\n\nLes possibles usages du semantic publishing pour un chercheur-usager équipé, au sens de Bigot (2018), d&#39;un dispositif de lecture augmenté sont multiples. Le lecteur peut ainsi (1) a minima acquérir et indexer automatiquement des notices bibliographiques. Il pourrait (2) encore désambiguïser les propos de l&#39;auteur (3), mieux saisir ses intentions par la typologie des concepts mobilisés ou par la structuration du document en analysant l&#39;agencement des fragments. En effet, le paradigme du semantic publishing qui lie sémantique et sémiotique au sens de Choi (2001), renégocie le document scientifique dans un réseau méta-informationnel qui n&#39;est pas sans rappeler un certain « tissage » pour faire référence à la théorie du texte de Roland Barthes (Simon, 2015 ; Barthes, 1973). Enfin (4), la sémantique des contenus scientifiques offre la possibilité de partager de manière simplifiée l&#39;URL de documents scientifiques sur ses réseaux socionumériques de prédilection avec l&#39;assurance d&#39;une auto-description (Goyet, 2017).\n\nLes deuxième et troisième propositions sont placées au conditionnel, car s&#39;il existe des possibilités de réaliser ce fantasme de chercheur (i.e. Auer et al, 2018), la réalité des pratiques éditoriales scientifiques est encore bien loin d&#39;exploiter pleinement le potentiel réel du Web des données liées. La quatrième possibilité relève plus de la communication que d&#39;une réelle sémantisation de contenus scientifiques, nous y reviendrons dans une analyse sociale de ces pratiques et des potentiels effets à moyen terme."
+    },
+    {
+      "heading": "Pourquoi parler de sémiotique du code ?",
+      "level": 3,
+      "text": "Avec le nouveau mode de publication qu&#39;est le semantic publishing, la structuration des contenus d&#39;un article scientifique va au-delà de son simple plan. Les fragments, comme unités de pensées structurées, sont agencés pour construire une réflexion : un plan de type IMRAD va, par exemple, présenter une typologie de parties clairement identifiables quant à leur fonction. Nous avons montré qu&#39;il était possible d&#39;anticiper également d&#39;autres usages à des fragments qui ne se superposeraient pas aux parties ou même aux paragraphes en présentant la péricope, qui est un fragment autonome qui peut avoir une autonomie de sens et peut être transclus (au sens de l&#39;intertextualité) dans un nouveau document sans perte de contexte (Kembellec et Bottini, 2017). Pour descendre encore plus loin en granularité, certains termes ou entités nommées du texte d&#39;un article trouvent possiblement des références définitoires multiples. Par exemple, si sous un angle structuraliste l&#39;on analyse le signifiant « documentarisation », on trouve au sein même des sciences de l&#39;information, en documentation des signifiés différents selon les écoles de pensées. De même, pour les entités nommées, lorsque l&#39;on se réfère par exemple à Christian Jacob, il est aisé de comprendre selon le contexte de l&#39;article qu&#39;il s&#39;agit d&#39;un chercheur en histoire des écritures ou d&#39;un homme politique. Cependant, un outil d&#39;analyse en lecture augmentée fera difficilement cette désambiguïsation sans l&#39;implémentation sémantique d&#39;un référentiel d&#39;autorités comme l&#39;ISNI, VIAF, ORCID ou IdRef.\n\nPour permettre à un outil de comprendre — tout du moins d&#39;inférer si l&#39;on veut éviter tout anthropomorphisme — qu&#39;une portion de texte, une figure ou un tableau constitue une unité de sens traitant d&#39;un sujet en particulier, il faut que l&#39;auteur puisse expliciter son inférence dans un format compréhensible par la machine : un code source. Goyet rappelait à ce sujet que le code informatique est une écriture (Goyet, 2017 ; Herrenschmidt, 2007), ses composantes en sont donc des signes, d&#39;où la qualification de leur étude de « sémiotique ». En effet, les modalités d&#39;inscription et de signalisation des fragments au sein d&#39;un dispositif éditorial scientifique sont d&#39;importance. Lors d&#39;une lecture attentive, l&#39;usager va comprendre, tout du moins interpréter la pensée de l&#39;auteur et saisir l&#39;agencement de ses réflexions en lien avec ses références. Un outil d&#39;analyse en lecture équipée (ibid) n&#39;aura pas la capacité d&#39;inférence et de rebond rêvée par Bush (1945) dans son Mémex : c&#39;est ici qu&#39;interviennent les signes passeurs de connaissance qui sont mis en œuvre par la conversion techno-sémiotique (Doueihi, 2008) des écrits au moyen de la délégation d&#39;écriture des divers dispositifs scripturaires en ligne (Jeanne-Perrier, 2006). Selon la méthodologie structurelle d&#39;inclusion de métadonnées sémantiques, selon la typologie des acteurs d&#39;autorités de référencement et selon le choix des vocabulaires, l&#39;inscription des fragments informationnels et de leur documentation ne se fera pas de la même façon. Pour clarifier le propos, plusieurs codes sources d&#39;écrits d&#39;écran hypertextes pourront amener au même résultat visuel à l&#39;affichage-écran. Cependant, une analyse sémiotique de leurs codes sources informera le lecteur attentif sur (1) le type d&#39;inférences que souhaite réaliser l&#39;auteur (2), un potentiel parti pris dans la gouvernance des systèmes d&#39;information, mais aussi (3) ses objectifs communicationnels de diffusion de l&#39;information (Sire, 2018)."
+    },
+    {
+      "heading": "Sémiotique du code : typologie analytique des signes passeurs en semantic publishing",
+      "level": 2,
+      "text": "Nous proposons ici une typologie analytique illustrée de ces divers signes qui exposent la sémantique de leurs contenus en contexte scientifique.\n\n[[fig:fig2]]"
+    },
+    {
+      "heading": "Les signes indicateurs de notices",
+      "level": 3,
+      "text": "La première catégorie que nous analyserons est celle centrée sur la signalisation de notices bibliographiques. Les cas d&#39;usages sont liés au repérage et à l&#39;extraction des références."
+    },
+    {
+      "heading": "Les métadonnées d'entête de fichier HTML",
+      "level": 4,
+      "text": "Les balises <code>&lt;meta&gt;</code> autorisent l&#39;usage d&#39;un ensemble normalisé de métadonnées, souvent du Dublin Core simple ou qualifié décrivant le document dans lequel elles sont intégrées (Kunze, 1999 ; Greenberg, 2003 ; Turner et Brackbill, 2011). Ce premier niveau de sémantique des contenus ne permet de décrire que le document lui-même de manière monolithique et donc n&#39;expose qu&#39;une seule notice, mais de manière très fine. Cette technique est utilisée par exemple pour exposer un billet de blog de recherche sur Hypothèses.org ou sur Hal et en proposer une indexation éditorialisée. La mise en œuvre des métadonnées embarquées à l&#39;entête du document HTML est très simple : elles sont placées entre les balises HTML <code>&lt;head&gt;</code> et <code>&lt;/head&gt;</code>. Chaque balise <code>&lt;meta&gt;</code> comprenant un premier attribut <code>name</code> pour typer la métadonnée et un deuxième attribut <code>value</code> pour donner sa valeur.\n\nGoogle Scholar encourage l&#39;usage d&#39;autres vocabulaires professionnels de presse comme les Prism Tags ou Highwire Press Tags plutôt que celui du Dublin Core plébiscité par le monde de la documentation. Il est possible donc, à la lecture du code source du document scientifique, d&#39;émettre une hypothèse sur l&#39;objectif éditorial de la documentation de la page. Si les signes passeurs d&#39;information utilisent un ou des vocabulaires préconisés par la firme Google plutôt que ceux du Dublin Core Metadata Initiative, les problématiques de visibilité sont d&#39;une importance au moins égale à la simple mise à disposition de notices pour les chercheurs. L&#39;exemple présenté en figure 1 utilise le vocabulaire Highwire Press Tags."
+    },
+    {
+      "heading": "Le Context Object in Span (COinS)",
+      "level": 4,
+      "text": "Le COinS est l&#39;implémentation en HTML de l&#39;OpenURL, norme NISO Z39-88. Il va plutôt avoir pour objectif de mettre en avant la bibliographie du document et non le document en lui-même. Ce type de format de métadonnées, comme leur nom l&#39;indique, s&#39;inscrit uniquement dans des balises « inline » (c.-à-d. sans saut de ligne) de type <code>&lt;span&gt;</code>. Cette balise n&#39;est pas porteuse de sens, son usage est lié au contexte d&#39;utilisation. Ici, l&#39;encadrement par les balises <code>&lt;span&gt;</code> matérialise l&#39;ancrage de métadonnées pour un item de bibliographie ou un appel de citation. L&#39;exemple en figure 2 présente un élément de bibliographie, encadré par des balises <code>&lt;cite&gt;</code> (qui ont intrinsèquement du sens) dans une balise <code>&lt;span&gt;</code>. Si l&#39;on décompose les signes, on remarque que les variables et les valeurs sont séparées par le signe <code>&amp;amp;</code> et que tous les caractères spéciaux sont encodés pour les besoins de l&#39;usage du protocole HTTP. Cette deuxième catégorie de signes passeurs d&#39;information est à considérer comme étant potentiellement : (a) une documentation altruiste afin de faciliter le repérage technique des notices par Zotero ou (b) plus probablement dans le cas des moteurs de recherche ou des éditeurs scientifiques commerciaux comme un service de création de valeur fidélisant le chercheur-usager-client."
+    },
+    {
+      "heading": "Signalisation de termes, entités nommées et fragments",
+      "level": 3,
+      "text": "Sire a récemment proposé de présenter les différentes techniques de sémantisation des contenus en ligne (2018), rendant possible leur discrétisation et par là une réelle sémantique des fragments info-documentaires scientifiques. Nous présentons ci-dessous une synthèse sélective de ces modèles applicables en situation de semantic publishing. L&#39;intégration de liaisons descriptives entre autorités, vocabulaires et fragments informationnels est une condition nécessaire à la systématisation de la sémantique des contenus. Cette condition nécessite qu&#39;un certain nombre de prérequis soient remplis et inscrits sous forme sémio-rhétorique faisant ainsi coïncider fond et forme (Bouchardon et al., 2011, p. 14).\n\n<ol><li>Tout d&#39;abord, les contenus d&#39;un document (ou fragments) doivent, pour satisfaire aux règles du FAIR, former un ensemble discret : ils doivent être accessibles de manière unique à travers d&#39;URI (Bachimont, 1999, p. 200 ; Goyet, 2017, p. 68 ; Sire, 2018, p. 147).</li><li>Ensuite, il convient que chaque élément décrit par l&#39;auteur ou l&#39;éditeur use d&#39;un référentiel composé de vocabulaires, de grammaires, et d&#39;autorités qui soient communes aux différents acteurs — qu&#39;ils soient humains ou machines.</li></ol>\n\nÀ partir de ces règles fondamentales, il faut analyser les formats qui se fondent sur ce modèle dit de « triplets », pour implémenter la sémantique au sein d&#39;un document scientifique, ce que nous proposons ici. Le moyen le plus habituel est d&#39;implémenter le modèle abstrait Resource Description Framework (RDF) comme méthode de description au sein d&#39;un hypertexte scientifique. Ce modèle est tout à la fois un système de pensée par graphe conceptuel et un langage de description dérivé du XML déclinable en diverses implémentations. Ce système repose sur le concept de triplet évoqué plus haut défini comme l&#39;association d&#39;un sujet, avec un objet au moyen d&#39;un prédicat. Le sujet représente la ressource à décrire, dans le cas qui nous intéresse, le fragment de texte (ou la ressource média dans un sens large : une illustration par exemple). Le prédicat représente un type de propriété applicable à cette ressource, cette propriété étant définie sous la forme d&#39;un élément de descripteur accessible en ligne au travers d&#39;une URL. Enfin, l&#39;objet représente une donnée ou une autre ressource : c&#39;est la valeur de la propriété. L&#39;objet va avoir pour valeur soit un identifiant fourni par une autorité (ISNI, ISBN…) dans ce cas l&#39;on parlera d&#39;URN, soit une valeur textuelle ou numérique dite « littérale », ou encore une URL d&#39;identification sensée définir le sujet documenté. Pour donner un exemple, le sujet du présent fragment textuel a pour prédicat de définir l&#39;objet de triplet RDF. Toutes les méthodes présentées ci-après se fondent sur ce principe de triplet RDF, les éléments de divergence, outre le substrat technique, vont être liés au mode de gouvernance des organismes liés tout autant que les objectifs affichés par lesdits organismes (Sire, 2018)."
+    },
+    {
+      "heading": "Le RDFa : le respect des règles institutionnelles",
+      "level": 4,
+      "text": "Ce modèle de structure sémantique implémentable au sein du HTML 5 dérive du xHTML (plus précisément du RDF intégré au xHTML). Il est proposé au sein du World Wide Web Consortium (W3C), l&#39;organisme en charge de standardisation du Web, fondé en 1994 par son inventeur et qui se charge de réguler les divers formats informatiques qui y cohabitent. Certaines descriptions peu flatteuses de la gouvernance du W3C font paraître cet organisme comme autocratique : la régulation des discussions appartenant in fine à Tim Berners Lee (Malcom, 2008). Toutefois cette organisation, comme le rappelle Sire, citant Russel, a le mérite incontestable d&#39;éviter que les formats du Web ne tombent sous la coupe des industriels avec des dépôts de brevets (Russell, 2003).\n\nL&#39;intégration du RDFa au sein du HTML5 n&#39;influe pas sur le rendu visuel du document dans le navigateur, sauf à user de plug-ins dédiés à cet usage. Les signes qui permettent de l&#39;implémenter sont facilement identifiables lors d&#39;une analyse sémiotique du code source : des attributs sont ajoutés aux balises HTML et vont indiquer les schémas, vocabulaires ou espaces de nommages convoqués et ainsi décrire et discrétiser les fragments sous forme de triplets. Dans l&#39;exemple fictif en figure 3, la ligne 9 propose au sein de la balise <code>&lt;section&gt;</code> l&#39;usage du schéma « ScholarlyArticle » pour décrire la citation. Il est précisé entre les lignes 11 et 15 que l&#39;auteur est une « Person », pas une institution. De plus, cet auteur est spécifié comme étant celui présenté dans le référentiel d&#39;autorité VIAF sous l&#39;identifiant 40280446, ce qui évite toute ambiguïté d&#39;homonymie. L&#39;humain verra donc l&#39;entité nommée « Lawrence Lessig » inscrite sur son écrit d&#39;écran et aura sa représentation mentale de la personne référée. La machine reproduira une démarche analytique « similaire » grâce au triplet sémantique pointant vers le serveur VIAF : le triangle sémiotique est donc respecté dans la dimension sémantique de Morris pour un usage informatif (Morris, 1946). On remarque aussi un bornage temporel différent de la simple année dans les lignes 17-19 au sein de la balise <code>&lt;date&gt;</code> : son attribut <code>property</code> est renseigné avec <code>temporalCoverage</code>, une durée qui va être valuée à 1999-2001. Cela correspond bien à un équivalent du texte à destination des humains : « le tournant du siècle »."
+    },
+    {
+      "heading": "Les micro-données et la sémantique orientée interaction et référencement : Microdata et Schema.org",
+      "level": 4,
+      "text": "Ces métadonnées sont nées d&#39;un désaccord de gouvernance au sein du W3C (Sire, 2018) : d&#39;un côté Tim Berners Lee souhaitait privilégier l&#39;usage du xHTML comme vecteur de sémantisation du Web, de l&#39;autre l&#39;initiative de créer un langage qui l&#39;intégrerait nativement de manière simplifiée : le HTML5. Cela a mené à la création du Web Hypertext Application Technology Working Group (WHATWG) soutenu par Google. Les règles des microdonnées ou microdata sont créées par les mêmes acteurs, qui sont présents dans les deux groupes, mais avec des tensions certaines. Ceci explique une multiplicité des formats d&#39;inclusion de métadonnées et données sémantiques dans le HTML5. Dans un même temps, les principaux moteurs de recherche mondiaux se sont rapprochés pour créer des schémas de description du réel et des référentiels dont l&#39;usage est encouragé dès 2011 par Google comme ayant un impact fort sur l&#39;indexation. Il est cependant possible d&#39;utiliser conjointement aux microdatas d&#39;autres référentiels de description comme le Dublin Core qualifié.\n\nLa sémantique des micro-données est portée, outre par les balises HTML5 elles-mêmes, par les attributs suivants :\n\n<ul><li><code>itemscope</code> : qui signifie le champ sémantique de l&#39;élément ;</li><li><code>itemtype</code> : qui précise le type d&#39;élément concerné ;</li><li><code>itemprop</code> : définit la propriété de l&#39;objet défini ;</li><li><code>itemid</code> : référence un identifiant unique, comme un URN fourni par un organisme d&#39;autorité de type ORCID, ISNI, ISSN ou encore ISBN.</li></ul>\n\nDans la figure 4, nous avons composé le contenu d&#39;un paragraphe qui fournit une opinion positive sur un article et ce qu&#39;en voit le robot de recherche sémantique de Google. Ici donc, la représentation visuelle du terme « Nous » augmentée de son code source inscrit dans la balise <code>&lt;span&gt;</code> sera traduite par les machines comme : la personne dont l&#39;identifiant ORCID est 0000-0003-3036-6989. Ce dernier cite l&#39;article « Code is Law » et abonde dans le sens de la référence. Nous notons ici aussi un usage informatif des triplets, ce qui semble aller dans le même sens que le RDFa."
+    },
+    {
+      "heading": "La sémantique dans les pages HTML5 et les Notebooks grâce au format JSON-LD",
+      "level": 4,
+      "text": "Une dernière méthode que nous analyserons est le format JSON-LD qui s&#39;intègre à la page HTML, soit dans l&#39;entête, soit dans un fichier à part qui sera chargé par le navigateur (avec un plug-in) ou le moteur d&#39;indexation. Ce format de code source a pour avantage certain une forte compacité qui n&#39;alourdit pas le code source HTML tout en autorisant une description fine de la page, tout en étant décorrélé du code de celle-ci. Dans ce cas précis, le sens du code est le même que pour les microdonnées et l&#39;analyse par le moteur est la même. Notons que le format JSON-LD est utilisé dans le cadre de la documentation des différents fragments d&#39;un notebook en science reproductible de type « JupyterHub »."
+    },
+    {
+      "heading": "Les signes communicationnels à destination des médias sociaux",
+      "level": 3,
+      "text": "Les documents en ligne peuvent également intégrer un type de métadonnées reconnaissables par les principaux médias sociaux qui fonctionnent tous sur le même modèle : une description du document comprenant les informations générales telles que le titre, l&#39;URL, les auteurs, une illustration et un résumé (Goyet, 2017). Ces métadonnées s&#39;implémentent sous deux formes : L&#39;Open Graph et les Summary Cards de la famille des Twitter Cards. Le protocole Open Graph (http://ogp.me/) est à destination de Facebook et de LinkedIn. Basé sur le RDFa et créé par Facebook, Open Graph permet à toute page Web de devenir un « objet riche dans un graphe social » (Haugen 2010). Haugen décrit ce protocole comme conçu pour être « utile à tout le monde », ce qui explique son usage par LinkedIn par exemple. Il est à noter qu&#39;il existe une fonctionnalité du gestionnaire de contenus WordPress pour en automatiser l&#39;intégration dans les billets, ce qui peut être in fine applicable à des documents scientifiques ou des carnets de recherche par exemple. Les Twitter Cards de type summary card sont, dans les mêmes conditions, porteuses d&#39;un discours d&#39;accompagnement du document hypertexte en ligne, mais à destination exclusive de Twitter.\n\n[[fig:fig3]]\n\nDans les deux cas cités, grâce aux signes inclus dans l&#39;entête de la page support, si l&#39;URL du carnet de recherche ou de l&#39;article en ligne est publiée sur un média social, une illustration et un texte seront les supports visuels de l&#39;hyperlien. L&#39;exemple, adapté de l&#39;entête du code source HTML d&#39;un article de la revue en ligne PeerJ, présente un aperçu des signes qui permettent de faire circuler les principales informations de l&#39;article sur les réseaux sociaux : un visuel, le titre et un résumé court en plus de l&#39;hyperlien. Il ne s&#39;agit pas là d&#39;une exposition de notice, mais bien d&#39;un « teaser » invitant à un engagement pour reprendre un terme issu du marketing numérique."
+    },
+    {
+      "heading": "Discussion sur l'usage du semantic publishing",
+      "level": 2,
+      "text": "Des questions émergent alors sur l&#39;impact que l&#39;intégration de ces nouvelles méthodes d&#39;inscriptions numériques en ligne a sur la chaîne des acteurs de l&#39;IST : auteurs, éditeurs, lecteurs. Quels en sont les réels enjeux implicites pour le monde, au sens large, de la recherche ?"
+    },
+    {
+      "heading": "Formats, référentiel et gouvernance, une impossible neutralité",
+      "level": 3,
+      "text": "Goyet (2017), interprétant Lessig dans son célèbre article « Code is Law » (1999) avait avancé que les choix concernant l&#39;écriture du code ne sont pas neutres : ce sont des choix techniques bien sûr, mais aussi de convictions. Nous avons présenté que des scissions ont pu intervenir dans les organismes de standardisation du Web pour des questions de gouvernance, de conflits personnels et d&#39;éthique. Outre les potentialités techniques, qui ne sont pas neutres, ce choix est porteur de valeurs morales et culturelles. Donc, sans prendre part à ces débats, l&#39;usage d&#39;un type de modalité d&#39;ancrage des données (xHTML vs HTML5) et métadonnées (RDFa vs Microdonnées ou JSON-LD) positionne l&#39;acteur, possiblement à son insu. De plus, le choix des modèles de données se rajoute comme facteur positionnant l&#39;acteur : une utilisation de schema.org pourrait être perçue comme féale au conglomérat des moteurs de recherche, alors que celle du Dublin Core pourrait être plébiscitée moralement, mais discutée techniquement. Enfin, le choix des autorités d&#39;identification n&#39;est absolument pas neutre non plus : si les autorités communiquent, l&#39;adhésion à l&#39;une ou l&#39;autre peut parfois se faire sur des facteurs aussi triviaux que le chauvinisme : en effet certaines autorités sont nationales, d&#39;autres étrangères ou encore internationales (Boulet, 2016). Ces analyses de solutions de formats, de référentiels et d&#39;autorités sortent de la sphère technique et toute proportion gardée, sont assez comparables aux discussions passionnées d&#39;adhésion entre usagers de systèmes libres et propriétaires. Il existe une multitude de paramètres à prendre en compte dont l&#39;utilisabilité, les politiques institutionnelles et nationales, tout autant que les réalités du marché de l&#39;édition et des usages de chercheurs. Lors de telles discussions, il faut s&#39;attendre à une analyse critique des dispositifs d&#39;écriture et de mise en ligne de documents scientifiques sur des aspects qui sont bien éloignés de la recherche."
+    },
+    {
+      "heading": "Apports pour les chercheurs : alignement sur les primitives savantes de la recherche",
+      "level": 3,
+      "text": "Pour la première fois dans l&#39;histoire des savoirs scientifiques, la sémantique des contenus est privilégiée à la simple évolution d&#39;une grammaire visuelle issue de la mémoire « de formes » des supports d&#39;inscription précédents (Jeanneret, 2006).\n\nNous avions précédemment présenté les fonctions les plus habituelles de l&#39;action et de la coopération en termes de recherche, d&#39;analyse, de synthèse et de partage de l&#39;information scientifique (Kembellec et Bottini 2017) au travers des primitives savantes du métier de chercheur par une synthèse de la littérature (Unsworth, 2000 ; Palmer et al. 2009 ; Hennicke et al. ; Nakakoji et al. 2005). Nous proposons ici, une mise en relation des principales primitives avec les signes passeurs du semantic publishing évoqués précédemment. Les parties offrant un réel bénéfice informationnel en contexte scientifique peuvent être une désambiguïsation conceptuelle ou des éléments de structuration documentaires signalant la nature ou la fonction d&#39;un fragment sémantique hyperliable."
+    },
+    {
+      "heading": "Prospective sur le semantic publishing",
+      "level": 3,
+      "text": "Les bénéfices du semantic publishing pour la compréhension et la circulation des savoirs scientifiques sont évidents, le temps héroïque du Web 1.0 est bien révolu et les écrits d&#39;écran ne sont plus le seul vecteur de communication numérique en réseau.\n\nAu-delà même des réflexions d&#39;usages, d&#39;enjeux et de techniques, cette tendance de renouveau en médiation de l&#39;information scientifique offre une proximité conceptuelle partielle avec un Mémex scientifique. Avec les facilités computationnelles et interprétatives offertes par le semantic publishing et l&#39;assistance d&#39;outils de lecture adaptés, il semble évident que de nouvelles possibilités de conversion de données en connaissances s&#39;ouvrent (Gartner, 2016, p.10). L&#39;ambiguïté entre les termes et également entre les entités nommées disparaît, les fragments informationnels sont décrits et reliés : on assiste à la naissance d&#39;information enrichie et découvrable avec davantage de visibilité et de citabilité."
+    },
+    {
+      "heading": "De nouvelles métriques en citation ?",
+      "level": 4,
+      "text": "Avec la discrétisation des appels de citation (ou des bibliographies d&#39;articles en ligne), un affinage des contextes de citation ouvre la perspective d&#39;une possible (re)théorisation de la citation en prenant en compte des métriques qualitatives autres que celles initiées par Garfield (1955, 1972) puis par Hirsch (2005) : l&#39;emplacement de la citation (Bertin et Atanassova, 2018), l&#39;intention de l&#39;auteur (Xiao et al. 2018) qui peut être perceptible par un modèle de rhétorique du code similaire à celui de l&#39;hypertexte tel que théorisé par Saemmer (2012, 2015)."
+    },
+    {
+      "heading": "De nouveaux architextes scientifiques ?",
+      "level": 4,
+      "text": "Ce scénario prospectif de la publication scientifique en ligne ne peut s&#39;envisager qu&#39;avec des outils d&#39;édition, d&#39;inscription, d&#39;interaction et les équipements de circulation (Goyet, 2007). À ce jour, malgré quelques preuves de concepts (Capadisli et al. 2015, Kembellec et Bottini, 2017), il reste encore à mettre en œuvre et à déployer un réel architexte scientifique pensé pour la sémantique des fragments by design pour aller dans le sens du What You See Is What You Mean cher à Crozat. De plus, il ne peut exister de documents scientifiques en ligne dont les fragments sont reliés entre eux que si lesdits documents sont accessibles : l&#39;Open Access en édition scientifique est donc un prérequis au semantic publishing, point encouragé, voire prescrit par les politiques nationales et européennes.\n\nUn travail considérable de documentarisation doit être pensé pour réaliser ce type d&#39;enrichissement et il ne peut être pensé que par l&#39;auteur ou en relation avec l&#39;auteur pour ne pas dénaturer sa pensée. Il faut se poser la question de l&#39;engagement des acteurs de l&#39;IST : les auteurs seraient-ils prêts à réaliser eux-mêmes ou participer à la qualification sémantique s&#39;ils en saisissent les enjeux et les avantages ? De même, les éditeurs privés ou institutionnels veulent-ils se saisir et financer ce genre de problématiques ? Nous estimons que des projets de recherche en semantic publishing comme NumeRev (https://numerev.com/) ouvriront une voie dans cette direction."
+    },
+    {
+      "heading": "Les points de vigilance",
+      "level": 3,
+      "text": "La diffusion et la communication des articles scientifiques sont devenues des enjeux en dehors même des cercles scientifiques. Le célèbre publish or perish toujours d&#39;actualité côtoie d&#39;autres réalités dues à l&#39;explosion de l&#39;offre en littérature scientifique ainsi qu&#39;à la nécessité de vulgariser et d&#39;exister dans la sphère publique : on parle maintenant aussi de Get Visible Or Vanish, de Deploy Or Die et même de Publicize Or Perish. La diffusion se réalise aussi par les moteurs de recherche grand public, les blogs de chercheurs et les réseaux sociaux. Pour ces supports de diffusion, qu&#39;ils soient grand public ou dédiés à la science, l&#39;enjeu communicationnel devient tellement important que de nouvelles métriques comme les altmetrics s&#39;invitent dans l&#39;espace du monde social de la recherche. Les méthodes d&#39;indexation naturelles actuelles privilégient la qualité du formalisme et la sémantique de description des contenus au même titre que les contenus eux-mêmes (Kembellec, 2016). Dès lors, la sémiotique du code permet de questionner la limite parfois ténue que l&#39;on peut établir entre formalisation (scénarisation) et publicisation (mercatique) des articles scientifiques sur les plateformes d&#39;édition et sur les blogs de chercheurs. Les règles du FAIR préconisent que la donnée scientifique soit « trouvable, accessible, interopérable et réutilisable » respectant ainsi les enjeux de l&#39;Open Data Scientifique (Moore, 2014 ; Wilkinson et al., 2016, Schöpfel, 2018). L&#39;effet corolaire de cette structuration est, en plus d&#39;obtenir un pagerank élevé pour les moteurs de recherche, d&#39;ouvrir des perspectives communicationnelles extérieures au document au travers du réseau des médias sociaux (Infante-Moro et al., 2015). Sans procès d&#39;intention des chercheurs et des éditeurs de plateformes de diffusion en IST, il convient de mettre en garde la communauté contre une possible confusion entre « industries médiatiques » et « médiatisantes ». Cette tentation peut être inhérente à la pression d&#39;évaluation des chercheurs, mais aussi à leurs « égos » (Anderson, 2014, Branford et Mallucci, 2015). Cela procède de ce que Jeanne-Perrier (2015) identifie comme une redondance informationnelle à vocation de « lobbying discursif et sémiotique ». Il convient, a minima, de prévenir des tentations de détournement d&#39;usage de ces signes passeurs : entre médiation et médiatisation, que le fond et la forme gardent chacun la place qui leur revient.\n\nEnfin, il faut questionner la délégation d&#39;écriture scientifique à de futurs architextes de semantic publishing qui pourrait brider l&#39;innovation intellectuelle et les ruptures scientifiques par l&#39;usage de référentiels trop rigides, laissant peu de place à la pensée singulière qui ne saurait être référencée faute de préexister. En termes de lecture « augmentée », il est à envisager également que l&#39;esprit critique soit possiblement bridé pour les mêmes raisons. Ce point est crucial, car il faut également discuter sérieusement le semantic publishing sous l&#39;axe de la liberté d&#39;interpréter et de l&#39;esprit critique, mais aussi de l&#39;éthique. En effet, que penser des différents référentiels utilisés par les descriptions conceptuelles de primitives sémantiques et les identifications systématiques ? Qui les édite ? Avec quelle liberté ? Leur sélection a-t-elle (vraiment) une importance ? Autant de questions dont la communauté de l&#39;IST devra se saisir pour revendiquer une autonomie de pensée en contexte de publication sémantique en réseau."
+    },
+    {
+      "heading": "Conclusion",
+      "level": 2,
+      "text": "Cet article a établi l&#39;intérêt de l&#39;analyse sémiotique des codes sources d&#39;écrits d&#39;écrans comme porteurs de sens pour les auteurs, éditeurs ou lecteurs. En effet, les sélections des types de signes passeurs, la méthode de fragmentation et les référentiels d&#39;autorité sont autant de choix qui ne sont pas neutres. Dans la focale du semantic publishing, leurs usages répondent à des besoins scientifiques précis en termes informationnels et communicationnels, tant pour l&#39;auteur, l&#39;éditeur que pour le lecteur. Dans un même temps, ils positionnent parfois l&#39;auteur ou l&#39;institution éditrice dans un contexte complexe dont les enjeux en matière de gouvernance peuvent être perçus comme « engageants ».\n\n[[fig:fig4]]\n\nNous conclurons en reprenant au compte du semantic publishing deux idées à mettre en tension. D&#39;un côté Saemmer, reprenant Mesquita, questionnait en situation de Web-journalisme l&#39;évolution d&#39;un usage auctorial de l&#39;hypertexte. Elle convoquait des courants de pensées critiques : l&#39;émergence d&#39;une « vérité dialogique » entre la forme et le fond par des anticipations de pratiques de lecture (Saemmer, 2015 ; Mesquita, 2005). De l&#39;autre côté, nous avons évoqué la crainte de voir se renforcer des usages du semantic publishing à visée uniquement diffusionnelle : cela irait dans le sens d&#39;une « circulation circulatoire de l&#39;information », sur le modèle des médias traditionnels fustigés par Bourdieu, induisant une uniformisation et un appauvrissement de la pensée (Bourdieu, 2002 ; Rebillard, 2006). La vérité du semantic publishing se trouvera certainement à mi-chemin, entre structuration documentaire forte, avec des données décrites et liées, mais aussi une tentative d&#39;influer sur le calcul des métriques de référencement de moteurs de recherche et des médias sociaux, scientifiques ou non. Cette supposition augure d&#39;un inévitable débat au sein de la communauté des SIC entre les enjeux communicationnels et informationnels relatifs à la médiation et la circulation des productions du semantic publishing en contexte scientifique."
+    }
+  ],
+  "figures": [
+    {
+      "figure_id": "fig1",
+      "src": "images/pipeline-semantic.png",
+      "alt": "Schéma de la pipeline de publication sémantique générative",
+      "caption": "Pipeline de publication sémantique — de l'ingestion du manuscrit au HTML enrichi",
+      "width": "80%",
+      "height": null,
+      "prov": "auto",
+      "data_uri": null
+    },
+    {
+      "figure_id": "fig2",
+      "src": "images/signes-passeurs.png",
+      "alt": "Tableau des types de signes passeurs en semantic publishing",
+      "caption": "Typologie analytique des signes passeurs — Kembellec 2019",
+      "width": "70%",
+      "height": null,
+      "prov": "auto",
+      "data_uri": null
+    },
+    {
+      "figure_id": "fig3",
+      "src": "images/facade-int.jpg",
+      "alt": "Interface d'une revue en ligne (façade)",
+      "caption": "Exemple de façade éditoriale d'une revue IST en ligne — PeerJ",
+      "width": "90%",
+      "height": "200px",
+      "prov": "auto",
+      "data_uri": null
+    },
+    {
+      "figure_id": "fig4",
+      "src": "images/image-carte-implantations-cnam-paca.png",
+      "alt": "Carte des implantations institutionnelles",
+      "caption": "Implantations géographiques des acteurs de l'IST (exemple)",
+      "width": "50%",
+      "height": null,
+      "prov": "auto",
+      "data_uri": null
+    }
+  ],
+  "references": [
+    {
+      "doi": "10.3917/comla1.199.0037",
+      "pages": "37--64",
+      "number": "1",
+      "volume": "199",
+      "year": "2019",
+      "journal": "Communication & langages",
+      "title": "Le design de l'information : textualisation, documentarisation, auctorialisation",
+      "author": "Zacklad, Manuel",
+      "ENTRYTYPE": "article",
+      "ID": "zacklad2019design"
+    },
+    {
+      "pages": "147--160",
+      "number": "2",
+      "volume": "19",
+      "year": "2018",
+      "journal": "Les Enjeux de l'information et de la communication",
+      "title": "Web sémantique : les politiques du sens et la rhétorique des données",
+      "author": "Sire, Guillaume",
+      "ENTRYTYPE": "article",
+      "ID": "sire2018web"
+    },
+    {
+      "year": "2010",
+      "address": "Paris",
+      "publisher": "Les Belles Lettres",
+      "title": "Le sens de la technique : le numérique et le calcul",
+      "author": "Bachimont, Bruno",
+      "ENTRYTYPE": "book",
+      "ID": "bachimont2010sens"
+    },
+    {
+      "pages": "61--94",
+      "number": "6",
+      "volume": "206",
+      "year": "2017",
+      "journal": "Réseaux",
+      "title": "Outils d'écriture du web et industrie du texte",
+      "author": "Goyet, Samuel",
+      "ENTRYTYPE": "article",
+      "ID": "goyet2017outils"
+    },
+    {
+      "number": "1",
+      "volume": "176",
+      "year": "1945",
+      "journal": "The Atlantic Monthly",
+      "title": "As We May Think",
+      "author": "Bush, Vannevar",
+      "ENTRYTYPE": "article",
+      "ID": "bush1945think"
+    },
+    {
+      "url": "http://scholarlykitchen.sspnet.org/2014/12/15/exaggerated-claims-has-publish-or-perish-become-publicize-or-perish/",
+      "howpublished": "The Scholarly Kitchen",
+      "year": "2014",
+      "title": "Exaggerated claims -- Has 'publish or perish' become 'publicize or perish'?",
+      "author": "Anderson, Kent",
+      "ENTRYTYPE": "misc",
+      "ID": "anderson2014exaggerated"
+    },
+    {
+      "doi": "10.1108/07378831211213210",
+      "pages": "60--81",
+      "number": "1",
+      "volume": "30",
+      "year": "2012",
+      "journal": "Library Hi Tech",
+      "title": "Invisible institutional repositories: Addressing the low indexing ratios of IRs in Google Scholar",
+      "author": "Arlitsch, Kenning and O'Brien, Patrick S.",
+      "ENTRYTYPE": "article",
+      "ID": "arlitsch2012invisible"
+    },
+    {
+      "doi": "10.1145/3227609.3227689",
+      "address": "New York, NY, USA",
+      "publisher": "ACM",
+      "pages": "1:1--1:6",
+      "year": "2018",
+      "booktitle": "Proceedings of the 8th International Conference on Web Intelligence, Mining and Semantics",
+      "title": "Towards a Knowledge Graph for Science",
+      "author": "Auer, Sören and Kovtun, Viktor and Prinz, Manuel and Kasprzik, Anna and Stocker, Markus and Vidal, Maria-Esther",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "auer2018knowledge"
+    },
+    {
+      "pages": "196--219",
+      "number": "2",
+      "volume": "13",
+      "year": "1999",
+      "journal": "Raisons, Idéologies, Pratiques",
+      "title": "Du texte à l'hypotexte : Les parcours de la mémoire documentaire",
+      "author": "Bachimont, Bruno",
+      "ENTRYTYPE": "article",
+      "ID": "bachimont1999texte"
+    },
+    {
+      "note": "Texte original 1973",
+      "year": "2002",
+      "address": "Paris",
+      "publisher": "Seuil",
+      "booktitle": "Œuvres complètes IV",
+      "title": "(Théorie du) texte",
+      "author": "Barthes, Roland",
+      "ENTRYTYPE": "incollection",
+      "ID": "barthes1973texte"
+    },
+    {
+      "doi": "10.1145/3240117.3240123",
+      "address": "New York, NY, USA",
+      "publisher": "ACM",
+      "pages": "6:1--6:4",
+      "year": "2018",
+      "booktitle": "Proceedings of the 1st International Conference on Digital Tools & Uses Congress",
+      "title": "Recommending Scientific Papers: The Role of Citation Contexts",
+      "author": "Bertin, Marc and Atanassova, Iana",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "bertin2018recommending"
+    },
+    {
+      "address": "Compiègne",
+      "year": "2018",
+      "school": "Université de Technologie de Compiègne",
+      "title": "Instruments, pratiques et enjeux d'une recherche numériquement équipée en sciences humaines et sociales",
+      "author": "Bigot, Jean-Édouard",
+      "ENTRYTYPE": "phdthesis",
+      "ID": "bigot2018instruments"
+    },
+    {
+      "pages": "11--24",
+      "number": "2",
+      "year": "2011",
+      "journal": "Les Enjeux de l'Information et de la Communication",
+      "title": "Explorer les possibles de l'écriture multimédia",
+      "author": "Bouchardon, Serge and Cailleau, Isabelle and Crozat, Stéphane and Bachimont, Bruno and Thibaud, Hugo",
+      "ENTRYTYPE": "article",
+      "ID": "bouchardon2011explorer"
+    },
+    {
+      "pages": "35--36",
+      "number": "2",
+      "volume": "53",
+      "year": "2016",
+      "journal": "I2D Information, données et documents",
+      "title": "De la SDN à la Nuit debout : Les métadonnées et les enjeux de gouvernance internationale",
+      "author": "Boulet, Vincent",
+      "ENTRYTYPE": "article",
+      "ID": "boulet2016sdn"
+    },
+    {
+      "pages": "3--8",
+      "volume": "145",
+      "year": "2002",
+      "journal": "Actes de la recherche en sciences sociales",
+      "title": "Les conditions sociales de la circulation internationale des idées",
+      "author": "Bourdieu, Pierre",
+      "ENTRYTYPE": "article",
+      "ID": "bourdieu2002conditions"
+    },
+    {
+      "pages": "579--581",
+      "number": "4",
+      "volume": "136",
+      "year": "2015",
+      "journal": "Plastic and Reconstructive Surgery",
+      "title": "Publicize or Perish! A Guide to Social Media Promotion of Scientific Articles",
+      "author": "Branford, Oliver A. and Mallucci, Paolo",
+      "ENTRYTYPE": "article",
+      "ID": "branford2015publicize"
+    },
+    {
+      "pages": "19--37",
+      "year": "2017",
+      "address": "London",
+      "publisher": "ISTE",
+      "booktitle": "Ecrilecture augmentée dans les communautés scientifiques. Humanités numériques et construction des savoirs",
+      "title": "Introduction à l'écrilecture scientifique et aux modalités techniques de son augmentation",
+      "author": "Broudoux, Evelyne and Kembellec, Gérald",
+      "ENTRYTYPE": "incollection",
+      "ID": "broudoux2017introduction"
+    },
+    {
+      "address": "Portorož, Slovenia",
+      "publisher": "Springer International Publishing",
+      "pages": "26--30",
+      "year": "2015",
+      "booktitle": "The Semantic Web: ESWC 2015 Satellite Events",
+      "title": "This 'Paper' is a Demo",
+      "author": "Capadisli, Sarven and Auer, Sören and Riedl, Reinhard",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "capadisli2015paper"
+    },
+    {
+      "pages": "75--84",
+      "number": "44",
+      "year": "2001",
+      "journal": "Linx",
+      "title": "Sémiotique et sémantique",
+      "author": "Choi, Young-Hee",
+      "ENTRYTYPE": "article",
+      "ID": "choi2001semiotique"
+    },
+    {
+      "pages": "9--33",
+      "number": "3",
+      "volume": "14",
+      "year": "2011",
+      "journal": "Document numérique",
+      "title": "Éléments pour une théorie opérationnelle de l'écriture numérique",
+      "author": "Crozat, Stéphane and Bachimont, Bruno and Cailleau, Isabelle and Bouchardon, Serge and Gaillard, Luc",
+      "ENTRYTYPE": "article",
+      "ID": "crozat2011elements"
+    },
+    {
+      "pages": "179--220",
+      "year": "2012",
+      "publisher": "ADBS",
+      "editor": "Calderan, Lisette and Laurent, Pascale and Lowinger, Hélène and Millet, Jacques",
+      "booktitle": "Le document numérique à l'heure du web de données",
+      "title": "Chaînes éditoriales et rééditorialisation de contenus numériques",
+      "author": "Crozat, Stéphane",
+      "ENTRYTYPE": "incollection",
+      "ID": "crozat2012chaines"
+    },
+    {
+      "pages": "62--64",
+      "number": "2",
+      "volume": "53",
+      "year": "2016",
+      "journal": "I2D--Information, données & documents",
+      "title": "Écrire avec une machine à calculer, écrire pour une machine à calculer",
+      "author": "Crozat, Stéphane",
+      "ENTRYTYPE": "article",
+      "ID": "crozat2016ecrire"
+    },
+    {
+      "year": "2008",
+      "address": "Paris",
+      "publisher": "Éditions du Seuil",
+      "title": "La grande conversion numérique",
+      "author": "Doueihi, Milad",
+      "ENTRYTYPE": "book",
+      "ID": "doueihi2008conversion"
+    },
+    {
+      "pages": "108--111",
+      "number": "3159",
+      "volume": "122",
+      "year": "1955",
+      "journal": "Science",
+      "title": "Citation indexes for science",
+      "author": "Garfield, Eugene",
+      "ENTRYTYPE": "article",
+      "ID": "garfield1955citation"
+    },
+    {
+      "pages": "471--479",
+      "number": "4060",
+      "volume": "178",
+      "year": "1972",
+      "journal": "Science",
+      "title": "Citation analysis as a tool in journal evaluation",
+      "author": "Garfield, Eugene",
+      "ENTRYTYPE": "article",
+      "ID": "garfield1972analysis"
+    },
+    {
+      "year": "2016",
+      "publisher": "Springer",
+      "title": "Metadata: Shaping Knowledge from Antiquity to the Semantic Web",
+      "author": "Gartner, Richard",
+      "ENTRYTYPE": "book",
+      "ID": "gartner2016metadata"
+    },
+    {
+      "note": "Trad. J. Bazin et A. Bensa",
+      "year": "1979",
+      "address": "Paris",
+      "publisher": "les Éditions de Minuit",
+      "title": "La raison graphique : la domestication de la pensée sauvage",
+      "author": "Goody, Jack",
+      "ENTRYTYPE": "book",
+      "ID": "goody1979raison"
+    },
+    {
+      "pages": "1876--1888",
+      "year": "2003",
+      "volume": "3",
+      "booktitle": "Encyclopedia of library and information science",
+      "title": "Metadata and the world wide web",
+      "author": "Greenberg, Jane",
+      "ENTRYTYPE": "incollection",
+      "ID": "greenberg2003metadata"
+    },
+    {
+      "publisher": "Springer Berlin Heidelberg",
+      "pages": "338",
+      "year": "2010",
+      "booktitle": "The Semantic Web -- ISWC 2010",
+      "title": "The Open Graph Protocol Design Decisions",
+      "author": "Haugen, Arne",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "haugen2010opengraph"
+    },
+    {
+      "year": "2015",
+      "institution": "D2ME Project",
+      "title": "D3.4 -- Research Report on DH Scholarly Primitives",
+      "author": "Hennicke, Steffen and Gradmann, Stefan and Dill, Kristin and Tschumpel, Gerold and Thoden, Klaus and Morbidoni, Christian and Pichler, Alois",
+      "ENTRYTYPE": "techreport",
+      "ID": "hennicke2015research"
+    },
+    {
+      "year": "2007",
+      "address": "Paris",
+      "publisher": "Gallimard",
+      "title": "Les trois écritures, langue, nombre, code",
+      "author": "Herrenschmidt, Clarisse",
+      "ENTRYTYPE": "book",
+      "ID": "herrenschmidt2007ecritures"
+    },
+    {
+      "pages": "16569--16572",
+      "number": "46",
+      "volume": "102",
+      "year": "2005",
+      "journal": "Proceedings of the National Academy of Sciences",
+      "title": "An index to quantify an individual's scientific research output",
+      "author": "Hirsch, Jorge E.",
+      "ENTRYTYPE": "article",
+      "ID": "hirsch2005index"
+    },
+    {
+      "pages": "18--30",
+      "number": "2",
+      "volume": "2",
+      "year": "2015",
+      "journal": "International Journal of Information Systems and Software Engineering for Big Companies",
+      "title": "The influence/impact of Semantic Web technologies on Social Media",
+      "author": "Infante-Moro, Alfonso and Zavate, Adriana and Infante-Moro, Juan-Carlos",
+      "ENTRYTYPE": "article",
+      "ID": "infantemoro2015influence"
+    },
+    {
+      "pages": "97--131",
+      "number": "137",
+      "year": "2006",
+      "journal": "Réseaux",
+      "title": "Des outils d'écriture aux pouvoirs exorbitants ?",
+      "author": "Jeanne-Perrier, Valérie",
+      "ENTRYTYPE": "article",
+      "ID": "jeanneperrier2006outils"
+    },
+    {
+      "pages": "111--131",
+      "number": "1",
+      "volume": "183",
+      "year": "2015",
+      "journal": "Communication langages",
+      "title": "Des discours et des signes : pour une évaluation critique de Twitter et de Facebook",
+      "author": "Jeanne-Perrier, Valérie",
+      "ENTRYTYPE": "article",
+      "ID": "jeanneperrier2015discours"
+    },
+    {
+      "pages": "97--107",
+      "number": "6",
+      "year": "1999",
+      "journal": "Xoana",
+      "title": "Pour une poétique de l'écrit d'écran",
+      "author": "Jeanneret, Yves and Souchier, Emmanuël",
+      "ENTRYTYPE": "article",
+      "ID": "jeanneret1999poetique"
+    },
+    {
+      "pages": "88--92",
+      "number": "16",
+      "year": "2006",
+      "journal": "Médiamorphoses",
+      "title": "Ceci n'est pas une page, ceci n'est pas un site",
+      "author": "Jeanneret, Yves",
+      "ENTRYTYPE": "article",
+      "ID": "jeanneret2006page"
+    },
+    {
+      "year": "2014",
+      "address": "Paris",
+      "publisher": "Éditions Non Standard",
+      "title": "Critique de la trivialité : les médiations de la communication, enjeu de pouvoir",
+      "author": "Jeanneret, Yves",
+      "ENTRYTYPE": "book",
+      "ID": "jeanneret2014critique"
+    },
+    {
+      "pages": "65--65",
+      "number": "2",
+      "volume": "53",
+      "year": "2016",
+      "journal": "I2D -- Information, données & documents",
+      "title": "Que voit réellement Google de la sémantique des pages web ?",
+      "author": "Kembellec, Gérald",
+      "ENTRYTYPE": "article",
+      "ID": "kembellec2016google"
+    },
+    {
+      "year": "2017",
+      "booktitle": "20° Colloque International sur le Document Numérique : CiDE.20",
+      "title": "Réflexions sur le fragment dans les pratiques scientifiques en ligne : entre matérialité documentaire et péricope",
+      "author": "Kembellec, Gérald and Bottini, Thomas",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "kembellec2017fragment"
+    },
+    {
+      "url": "http://buildbot.tools.ietf.org/html/rfc2731",
+      "number": "rfc2731",
+      "year": "1999",
+      "institution": "Network Working Group",
+      "title": "Encoding Dublin Core Metadata in HTML",
+      "author": "Kunze, John",
+      "ENTRYTYPE": "techreport",
+      "ID": "kunze1999encoding"
+    },
+    {
+      "pages": "191--213",
+      "number": "1",
+      "volume": "14",
+      "year": "2002",
+      "journal": "Public Culture",
+      "title": "Cultures of Circulation: The Imaginations of Modernity",
+      "author": "Lee, Benjamin and Lipuma, Edward",
+      "ENTRYTYPE": "article",
+      "ID": "lee2002cultures"
+    },
+    {
+      "pages": "759--769",
+      "number": "2",
+      "volume": "14",
+      "year": "1999",
+      "journal": "Berkeley Technology Law Journal",
+      "title": "The limits in open code: regulatory standards and the future of the net",
+      "author": "Lessig, Lawrence",
+      "ENTRYTYPE": "article",
+      "ID": "lessig1999limits"
+    },
+    {
+      "year": "2008",
+      "publisher": "Terminus Press",
+      "title": "Multi-stakeholder governance and the Internet Governance Forum",
+      "author": "Malcolm, Jeremy",
+      "ENTRYTYPE": "book",
+      "ID": "malcolm2008multistakeholder"
+    },
+    {
+      "pages": "56--63",
+      "number": "3810",
+      "volume": "159",
+      "year": "1968",
+      "journal": "Science",
+      "title": "The Matthew effect in science",
+      "author": "Merton, Robert K.",
+      "ENTRYTYPE": "article",
+      "ID": "merton1968matthew"
+    },
+    {
+      "pages": "203--232",
+      "number": "23",
+      "year": "2005",
+      "journal": "Recherches en communication",
+      "title": "Théories et pratiques du journalisme du télégraphe à l'hypertexte",
+      "author": "Mesquita, Mário",
+      "ENTRYTYPE": "article",
+      "ID": "mesquita2005theories"
+    },
+    {
+      "year": "1946",
+      "address": "Oxford, England",
+      "publisher": "Prentice-Hall",
+      "title": "Signs, language and behavior",
+      "author": "Morris, Charles",
+      "ENTRYTYPE": "book",
+      "ID": "morris1946signs"
+    },
+    {
+      "number": "1",
+      "volume": "11",
+      "year": "2015",
+      "journal": "The New Review of Hypermedia and Multimedia",
+      "title": "Interaction design for scholarly writing: hypertext representations as a means for creative knowledge work",
+      "author": "Nakakoji, Kumiyo and Yamamoto, Yasuhiro and Akaishi, Mitsuru and Hori, Koichi",
+      "ENTRYTYPE": "article",
+      "ID": "nakakoji2015interaction"
+    },
+    {
+      "url": "http://www.oclc.org/programs/publications/reports/2009-02.pdf",
+      "address": "Dublin, Ohio",
+      "year": "2009",
+      "institution": "OCLC Research",
+      "title": "Scholarly information practices in the online environment",
+      "author": "Palmer, Carole L. and Teffeau, Lauren C. and Pirmann, Carrie M.",
+      "ENTRYTYPE": "techreport",
+      "ID": "palmer2009scholarly"
+    },
+    {
+      "pages": "42--43",
+      "number": "2",
+      "volume": "53",
+      "year": "2016",
+      "journal": "I2D Information, données documents",
+      "title": "Linked science et Web de données",
+      "author": "Prime-Claverie, Camille",
+      "ENTRYTYPE": "article",
+      "ID": "primeclaverie2016linked"
+    },
+    {
+      "pages": "29--68",
+      "number": "137",
+      "year": "2006",
+      "journal": "Réseaux",
+      "title": "Du traitement de l'information à son retraitement",
+      "author": "Rebillard, Franck",
+      "ENTRYTYPE": "article",
+      "ID": "rebillard2006traitement"
+    },
+    {
+      "pages": "22--23",
+      "number": "10",
+      "volume": "22",
+      "year": "2009",
+      "journal": "Physics World",
+      "title": "Publicize or Perish",
+      "author": "Romm, Joseph",
+      "ENTRYTYPE": "article",
+      "ID": "romm2009publicize"
+    },
+    {
+      "year": "2003",
+      "institution": "Social Science Research Network",
+      "title": "The W3C and Its Patent Policy Controversy: A Case Study of Authority and Legitimacy in Internet Governance",
+      "author": "Russell, Andrew L.",
+      "ENTRYTYPE": "techreport",
+      "ID": "russell2003w3c"
+    },
+    {
+      "number": "34",
+      "year": "2012",
+      "journal": "Médiation et information",
+      "title": "Étude sémio-rhétorique du rôle de l'hypertexte dans le discours journalistique",
+      "author": "Saemmer, Alexandra",
+      "ENTRYTYPE": "article",
+      "ID": "saemmer2012etude"
+    },
+    {
+      "year": "2015",
+      "address": "Villeurbanne",
+      "publisher": "ENSSIB",
+      "title": "Rhétorique du texte numérique. Figures de la lecture, anticipations de pratiques",
+      "author": "Saemmer, Alexandra",
+      "ENTRYTYPE": "book",
+      "ID": "saemmer2015rhetorique"
+    },
+    {
+      "pages": "85--94",
+      "number": "2",
+      "volume": "22",
+      "year": "2009",
+      "journal": "Learned Publishing",
+      "title": "Semantic publishing: the coming revolution in scientific journal publishing",
+      "author": "Shotton, David",
+      "ENTRYTYPE": "article",
+      "ID": "shotton2009semantic"
+    },
+    {
+      "pages": "3--20",
+      "year": "2015",
+      "publisher": "ISTE Editions",
+      "booktitle": "Le numérique à l'ère de l'Internet des objets, de l'hypertexte à l'hyper-objet",
+      "title": "Le discours hypertextualisé : Une notion essentielle pour l'analyse du Web",
+      "author": "Simon, Judith",
+      "ENTRYTYPE": "incollection",
+      "ID": "simon2015discours"
+    },
+    {
+      "pages": "105--119",
+      "number": "107",
+      "year": "1996",
+      "journal": "Communication & langages",
+      "title": "L'écrit d'écran, pratiques d'écriture & informatique",
+      "author": "Souchier, Emmanuël",
+      "ENTRYTYPE": "article",
+      "ID": "souchier1996ecrit"
+    },
+    {
+      "pages": "137--145",
+      "number": "2",
+      "year": "1998",
+      "journal": "Les Cahiers de médiologie",
+      "title": "L'image du texte pour une théorie de l'énonciation éditoriale",
+      "author": "Souchier, Emmanuël",
+      "ENTRYTYPE": "article",
+      "ID": "souchier1998image"
+    },
+    {
+      "pages": "100--105",
+      "number": "33",
+      "year": "2002",
+      "journal": "Pour la Science",
+      "title": "Écriture numérique ou médias informatisés ?",
+      "author": "Souchier, Emmanuël and Jeanneret, Yves",
+      "ENTRYTYPE": "article",
+      "ID": "souchier2002ecriture"
+    },
+    {
+      "pages": "258--271",
+      "number": "4",
+      "volume": "42",
+      "year": "2011",
+      "journal": "Library Resources & Technical Services",
+      "title": "Rising to the top: evaluating the use of the HTML meta tag to improve retrieval of World Wide Web documents through Internet search engines",
+      "author": "Turner, Terry P. and Brackbill, Laurie",
+      "ENTRYTYPE": "article",
+      "ID": "turner2011rising"
+    },
+    {
+      "address": "King's College, London",
+      "year": "2000",
+      "booktitle": "Humanities Computing: formal methods, experimental practice",
+      "title": "Scholarly Primitives: what methods do humanities researchers have in common, and how might our tools reflect this?",
+      "author": "Unsworth, John",
+      "ENTRYTYPE": "inproceedings",
+      "ID": "unsworth2000primitives"
+    },
+    {
+      "pages": "49",
+      "number": "2",
+      "volume": "53",
+      "year": "2016",
+      "journal": "I2D--Information, données & documents",
+      "title": "L'enjeu du Web de données pour l'édition scientifique",
+      "author": "Verlaet, Luc and Dillaerts, Hans",
+      "ENTRYTYPE": "article",
+      "ID": "verlaet2016enjeu"
+    },
+    {
+      "year": "2018",
+      "journal": "Scientometrics",
+      "title": "The Impact on Citation Analysis Based on Ontology and Linked Data",
+      "author": "Xiao, Ming and Shi, Zhongchi and Wang, Shuhua",
+      "ENTRYTYPE": "article",
+      "ID": "xiao2018impact"
+    }
+  ],
+  "concepts": [],
+  "stances": [
+    {
+      "relation": "agreesWith",
+      "concept_term": "documentarisation",
+      "concept_qid": null,
+      "concept_idref": null,
+      "agent_name": "Gérald Kembellec",
+      "agent_orcid": "0000-0003-3036-6989",
+      "cited_title": "Le design de l'information : textualisation, documentarisation, auctorialisation",
+      "cited_author": "Manuel Zacklad",
+      "cited_author_orcid": "0000-0002-2605-3624",
+      "cited_doi": "10.3917/comla1.199.0037",
+      "prov": "author"
+    }
+  ],
+  "unresolved_citations": []
+}
